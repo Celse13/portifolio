@@ -9,6 +9,7 @@ import Profile from "../../public/Profile_picture.png";
 import Git_Link_Profile from "../../public/Git-link.jpeg";
 import AirBnB_Profile from "../../public/Airbnb-Logo.wine.svg";
 import Schedulr_Profile from "../../public/Schedulr_profile.png";
+import logo from "../../public/FB_IMG_16542860915609624.jpg";
 
 import { useState } from "react";
 
@@ -152,69 +153,90 @@ export default function Page() {
               My Projects
             </h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      <Link href="https://github.com/yourusername/Git-Link" passHref legacyBehavior>
-        <a target="_blank" className="transform transition-transform hover:scale-105">
-          <Card>
-            <CardContent className="p-4">
-              <Image
-                alt="Project 1"
-                className="mb-4 aspect-video w-full rounded-lg object-cover"
-                height="225"
-                src={Git_Link_Profile}
-                width="400"
-              />
-              <h3 className="mb-2 text-xl font-bold">Git-Link</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Provide users GitHub Statistics and information about their
-                repositories.
-              </p>
-            </CardContent>
-          </Card>
-        </a>
-      </Link>
-      <Link href="https://github.com/yourusername/AirBnB-Clone" passHref legacyBehavior>
-        <a target="_blank" className="transform transition-transform hover:scale-105">
-          <Card>
-            <CardContent className="p-4">
-              <Image
-                alt="Project 2"
-                className="mb-4 aspect-video w-full rounded-lg object-cover"
-                height="225"
-                src={AirBnB_Profile}
-                width="400"
-              />
-              <h3 className="mb-2 text-xl font-bold">AirBnB Clone</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                This is a clone of the AirBnb website. It allows users to
-                create account, login, and book a place to stay.
-              </p>
-            </CardContent>
-          </Card>
-        </a>
-      </Link>
-      <Link href="https://github.com/yourusername/Schedulr" passHref legacyBehavior>
-        <a target="_blank" className="transform transition-transform hover:scale-105">
-          <Card>
-            <CardContent className="p-4">
-              <Image
-                alt="Project 3"
-                className="mb-4 aspect-video w-full rounded-lg object-cover"
-                height="225"
-                src={Schedulr_Profile}
-                width="400"
-              />
-              <h3 className="mb-2 text-xl font-bold">Schedulr</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Schedulr is a platform that connects users with various
-                service providers. Users can book appointments, view service
-                details, and manage their bookings. Service providers can
-                list their services and manage bookings.
-              </p>
-            </CardContent>
-          </Card>
-        </a>
-      </Link>
-    </div>
+              <Link
+                href="https://github.com/Celse13/git-link"
+                passHref
+                legacyBehavior
+              >
+                <a
+                  target="_blank"
+                  className="flex transform flex-col transition-transform hover:scale-105"
+                >
+                  <Card className="flex flex-grow flex-col">
+                    <CardContent className="flex flex-grow flex-col p-4">
+                      <Image
+                        alt="Project 1"
+                        className="mb-4 aspect-video w-full rounded-lg object-cover"
+                        height="225"
+                        src={Git_Link_Profile}
+                        width="400"
+                      />
+                      <h3 className="mb-2 text-xl font-bold">Git-Link</h3>
+                      <p className="flex-grow text-gray-500 dark:text-gray-400">
+                        Provide users GitHub Statistics and information about
+                        their repositories.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+              </Link>
+              <Link
+                href="https://github.com/DruSadeMumba/AirBnB_clone_v4"
+                passHref
+                legacyBehavior
+              >
+                <a
+                  target="_blank"
+                  className="flex transform flex-col transition-transform hover:scale-105"
+                >
+                  <Card className="flex flex-grow flex-col">
+                    <CardContent className="flex flex-grow flex-col p-4">
+                      <Image
+                        alt="Project 2"
+                        className="mb-4 aspect-video w-full rounded-lg object-cover"
+                        height="225"
+                        src={AirBnB_Profile}
+                        width="400"
+                      />
+                      <h3 className="mb-2 text-xl font-bold">AirBnB Clone</h3>
+                      <p className="flex-grow text-gray-500 dark:text-gray-400">
+                        This is a clone of the AirBnb website. It allows users
+                        to create account, login, and book a place to stay.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+              </Link>
+              <Link
+                href="https://github.com/Celse13/Online-Appointment-Booking-System"
+                passHref
+                legacyBehavior
+              >
+                <a
+                  target="_blank"
+                  className="flex transform flex-col transition-transform hover:scale-105"
+                >
+                  <Card className="flex flex-grow flex-col">
+                    <CardContent className="flex flex-grow flex-col p-4">
+                      <Image
+                        alt="Project 3"
+                        className="mb-4 aspect-video w-full rounded-lg object-cover"
+                        height="225"
+                        src={Schedulr_Profile}
+                        width="400"
+                      />
+                      <h3 className="mb-2 text-xl font-bold">Schedulr</h3>
+                      <p className="flex-grow text-gray-500 dark:text-gray-400">
+                        Schedulr is a platform that connects users with various
+                        service providers. Users can book appointments, view
+                        service details, and manage their bookings. Service
+                        providers can list their services and manage bookings.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+              </Link>
+            </div>
           </div>
         </section>
         <section
