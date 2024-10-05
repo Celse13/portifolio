@@ -35,7 +35,7 @@ export function PageComponent() {
                   Welcome to My Portfolio
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I'm a passionate developer creating amazing web experiences.
+                I&apos;m a passionate developer creating amazing web experiences.
                 </p>
               </div>
               <div className="space-x-4">
@@ -53,7 +53,7 @@ export function PageComponent() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
             <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly websites. With
+            I&apos;m a full-stack developer with a passion for creating beautiful, functional, and user-friendly websites. With
               expertise in React, Next.js, and Node.js, I bring ideas to life through code.
             </p>
           </div>
@@ -109,7 +109,7 @@ export function PageComponent() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Get in Touch</h2>
             <div className="flex flex-col items-center space-y-4 text-center">
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                I'm always open to new opportunities and collaborations. Feel free to reach out!
+              I&apos;m always open to new opportunities and collaborations. Feel free to reach out!
               </p>
               <div className="flex space-x-4">
                 <Button asChild variant="outline" size="icon">

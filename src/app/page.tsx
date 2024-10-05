@@ -7,9 +7,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Profile from "../../public/Profile_picture.png";
 import Git_Link_Profile from "../../public/Git-link.jpeg";
-import AirBnB_Profile from "../../public/Airbnb-Logo.wine.svg";
+import AirBnB_Profile from "../../public/Airbnb-Logo.wine.png";
 import Schedulr_Profile from "../../public/Schedulr_profile.png";
-import logo from "../../public/FB_IMG_16542860915609624.jpg";
+
 
 import { useState } from "react";
 
@@ -83,7 +83,7 @@ export default function Page() {
                     The Business-code maestro in software development
                   </h1>
                   <p className="mx-auto max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl">
-                    I'm Celse, a passionate software developer with a knack for
+                    I&apos;m Celse, a passionate software developer with a knack for
                     turning ideas into impactful solutions. I specialize in
                     building websites, crafting mobile apps, and creating
                     seamless software systems.
@@ -123,7 +123,7 @@ export default function Page() {
                   About Me
                 </h2>
                 <p className="mt-4 text-gray-500 dark:text-gray-400 md:text-xl">
-                  I'm a full-stack developer with a passion for creating
+                  I&apos;m a full-stack developer with a passion for creating
                   beautiful, functional, and user-friendly websites. With
                   expertise in React, Next.js, and Node.js, I bring ideas to
                   life through code.
@@ -249,7 +249,7 @@ export default function Page() {
             </h2>
             <div className="flex flex-col items-center space-y-4 text-center">
               <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
-                I'm always open to new opportunities and collaborations. Feel
+              I&apos;m always open to new opportunities and collaborations. Feel
                 free to reach out!
               </p>
               <div className="flex space-x-4">
