@@ -26,7 +26,7 @@ export const Hero = () => {
 
           {/* Content */}
           <div className="flex-1 text-center md:text-left">
-            <h1 className="mb-2 text-2xl font-bold text-foreground md:text-4xl">
+            <h1 className="text-1xl mb-2 font-bold text-foreground md:text-2xl">
               Celse Honore RUGIRA
             </h1>
 
