@@ -17,13 +17,13 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
+{/*           <div className="flex items-center gap-4">
             <Phone className="h-5 w-5 text-primary" />
             <div>
               <p className="font-medium text-foreground">Phone</p>
               <p className="text-muted-foreground">+250784764732</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-4">
             <MapPin className="h-5 w-5 text-primary" />
