@@ -5,8 +5,18 @@ import NFTMarketplaceProfile from "../../public/nft-marketplace.png";
 import GitLinkProfile from "../../public/Git-link.jpeg";
 import AirBnBProfile from "../../public/Airbnb-Logo.wine.png";
 import SchedulrProfile from "../../public/Schedulr_profile.png";
+import DiscoverProfile from "../../public/Info-discover.png";
+
 
 const projects = [
+  {
+    title: "Discover",
+    description:
+      "A Discover website. This platform helps users to discover their purpose in life with a guided journaling experience.",
+    tech: "Next.js, React, TypeScript, and Tailwind CSS",
+    image: DiscoverProfile,
+    url: "https://www.infodiscover.org/",
+  },
   {
     title: "NFT Marketplace",
     description:
